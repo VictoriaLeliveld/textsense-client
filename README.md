@@ -1,16 +1,26 @@
-# React + Vite
+# TextSense
+<img width="1046" height="584" alt="TextSense2" src="https://github.com/user-attachments/assets/389b9b39-391f-4189-8239-5bf1040d0a56" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TextSense is a web application designed to help web developers analyze the readability and accessibility of their content. Users can paste in text, and the app provides suggestions to improve clarity, reduce complexity, and address common accessibility issues.
 
-Currently, two official plugins are available:
+## How It Works
+TextSense sends text input to a backend server powered by Google’s Gemini 2.5 Flash AI, which analyzes the content and returns short, actionable suggestions to improve readability, clarity, and accessibility.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Built With
+- React.js
+- Vite
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express.js
+- Google Gemini API
 
-## React Compiler
+## Live Demo
+Check out the live site here: [victorialeliveld.github.io/textsense-client](https://victorialeliveld.github.io/textsense-client/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Contact
+- Created by Victoria Leliveld
+- Feel free to connect: [LinkedIn](https://www.linkedin.com/in/victorialeliveld/)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
